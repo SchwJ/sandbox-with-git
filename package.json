@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@stackblitz/storybook-addon-stackblitz": "^0.0.5",
     "@storybook/addon-essentials": "^8.0.6",
     "@storybook/addon-interactions": "^8.0.6",
     "@storybook/addon-links": "^8.0.6",

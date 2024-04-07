@@ -29,6 +29,21 @@ export const Primary: Story = {
     primary: true,
     label: 'Button',
   },
+  parameters: {
+    filePath: 'src/stories/Button.tsx',
+    repositoryUrl: 'https://github.com/SchwJ/sandbox-with-git',
+  }
+  /*
+  If your components are placed in multiple repositories, you can also define the repository URL per the specific story:
+
+  export const Primary: Story = {
+    args: { ... },
+      parameters: {
+        filePath: 'src/stories/Button.tsx',
+        repositoryUrl: 'https://github.com/[username]/[reponame]'
+      }
+  };
+  */
 };
 
 export const Secondary: Story = {
